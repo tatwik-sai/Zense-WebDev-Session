@@ -1,0 +1,60 @@
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Center the container and add some padding */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    color: #333;
+}
+
+/* Add space below subheadings */
+h2 {
+    margin-top: 20px;
+}
+
+/* Style the form input and button */
+input[type="text"] {
+    padding: 8px;
+    width: 70%;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Remove default list bullets */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Add space between list items */
+li {
+    margin-bottom: 10px;
+}
+
+/* Add space between elements in list items */
+li input,
+li label,
+li button {
+    margin-right: 8px;
+}
+
+/* Style the buttons */
+button {
+    padding: 4px 8px;
+    cursor: pointer;
+}
